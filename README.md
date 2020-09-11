@@ -25,15 +25,15 @@ Removing cloud cover in Sentinel-2 satellite images using only optical data and 
 
 ### Model and Training 
 
-pix-2-pix GAN model is used for learning the mapping of the cloudy image to it's cloud-free counterpart. It follows a supervised conditional vector based training approach. The model is trained on the cloudy and cloud-free image pairs. pix-2-pix model follows a pixel to pixel image restoration approach and generates a new pixel for every cloudy pixel.
+pix-2-pix GAN model is used for learning the mapping of the cloudy image to it's cloud-free counterpart. It follows a supervised conditional vector based training approach. The model is trained on the cloudy and cloud-free image pairs which are dated two days apart. pix-2-pix model follows a pixel to pixel image restoration approach and generates a new pixel cloud-free for every cloudy pixel.
 
 ### Architectures 
 
-#### Generator Architecture (U-Net)
+#### Discriminator Architecture (PatchGAN)
 
 ![Proposed U-Net Generator for the pix2pix GAN](https://github.com/Chintan2108/Cloud-Removal-in-Satellite-Images-using-Conditional-Generative-Adversarial-Networks/blob/master/network%20architectures/discriminator_.png)
 
-#### Discriminator Architecture  (PatchGAN)
+#### Generator Architecture (U-Net)
 
 ![Proposed PatchGAN Discriminator for the pix2pix GAN](https://github.com/Chintan2108/Cloud-Removal-in-Satellite-Images-using-Conditional-Generative-Adversarial-Networks/blob/master/network%20architectures/generator_new__.jpg)
 
