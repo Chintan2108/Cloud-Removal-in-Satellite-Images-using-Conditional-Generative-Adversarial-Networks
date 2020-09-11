@@ -31,11 +31,11 @@ pix-2-pix GAN model is used for learning the mapping of the cloudy image to it's
 
 #### Generator Architecture (U-Net)
 
-![Proposed U-Net Generator for the pix2pix GAN](/network architectures/generator_new__.png)
+![Proposed U-Net Generator for the pix2pix GAN](https://github.com/Chintan2108/Cloud-Removal-in-Satellite-Images-using-Conditional-Generative-Adversarial-Networks/blob/master/network%20architectures/discriminator_.png)
 
 #### Discriminator Architecture  (PatchGAN)
 
-![Proposed PatchGAN Discriminator for the pix2pix GAN](/network architectures/discriminator_.png)
+![Proposed PatchGAN Discriminator for the pix2pix GAN](https://github.com/Chintan2108/Cloud-Removal-in-Satellite-Images-using-Conditional-Generative-Adversarial-Networks/blob/master/network%20architectures/generator_new__.jpg)
 
 ## Contribution
 
