@@ -39,4 +39,6 @@ pix-2-pix GAN model is used for learning the mapping of the cloudy image to it's
 
 ## Contribution
 
+[![Gitter](https://badges.gitter.im/Cloud-Removal-in-Satellite-Images-using-GANs/community.svg)](https://gitter.im/Cloud-Removal-in-Satellite-Images-using-GANs/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 Please feel free to raise issues and fix any existing ones. Further details can be found in our [code of conduct](https://github.com/Chintan2108/Cloud-Removal-in-Satellite-Images-using-Conditional-Generative-Adversarial-Networks/blob/master/CODE_OF_CONDUCT.md).
