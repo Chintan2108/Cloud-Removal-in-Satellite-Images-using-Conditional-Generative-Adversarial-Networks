@@ -23,9 +23,13 @@ Cloud cover in the earth's atmosphere is a major issue in temporal optical satel
 Sentinel-2 is a part of the opensource earth-observation *Copernicus* mission of the ESA. It provides high temporal resolution multispectral data (13 bands) at 10m spatial resolution. False Color Composite Images (Green, Red and NIR bands) are used. The study site is chosen based availability of phenological features (crops/agriculture). 
 Removing cloud cover in Sentinel-2 satellite images using only optical data and a novel augmented training approach using conditional GANs. 
 
+[Training Data Drive Link](https://drive.google.com/file/d/1dJqHhZUHgYrf0_42CBswJklQgxsApAXQ/view?usp=sharing)
+
 ### Model and Training 
 
 pix-2-pix GAN model is used for learning the mapping of the cloudy image to it's cloud-free counterpart. It follows a supervised conditional vector based training approach. The model is trained on the cloudy and cloud-free image pairs which are dated two days apart. pix-2-pix model follows a pixel to pixel image restoration approach and generates a new pixel cloud-free for every cloudy pixel.
+
+[Trained Model Drive Link](https://drive.google.com/drive/folders/1kmXGRGnV4Lj8zRIoLWPp7FLGhNDf7bKQ?usp=sharing)
 
 ### Architectures 
 
