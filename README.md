@@ -21,7 +21,12 @@ Cloud cover in the earth's atmosphere is a major issue in temporal optical satel
 ### Dataset
 
 Sentinel-2 is a part of the opensource earth-observation *Copernicus* mission of the ESA. It provides high temporal resolution multispectral data (13 bands) at 10m spatial resolution. False Color Composite Images (Green, Red and NIR bands) are used. The study site is chosen based availability of phenological features (crops/agriculture). 
-Removing cloud cover in Sentinel-2 satellite images using only optical data and a novel augmented training approach using conditional GANs. 
+Removing cloud cover in Sentinel-2 satellite images using only optical data and a novel augmented training approach using conditional GANs.
+
+Currently the training dataset is augmented from a single pair of cloudy and cloud-free images labelled as True and False image and used as Training and Test Data respectively.
+
+The initial augmentation is performed only by rotation of 0, 90, 180 and -90 degrees which gives us 4 pairs, say 1,2,3 and 4.These four pairs are then stacked iteratively 10 times as: [1,2,3,4,1,2,3,4,1,2].
+Later on, more data augmentation was implemented by performing skew operations on the cloudy and cloud-free images, and then perform the rotation operations. Now there are 4 pairs of original (unskewed) images, say, [1, 2, 3, 4] and 4 pairs of the skewed images, say [1', 2', 3', 4'] which are stacked as [1,2,3,4,1',2',3',4',1,1'].
 
 [Training Data Drive Link](https://drive.google.com/file/d/1dJqHhZUHgYrf0_42CBswJklQgxsApAXQ/view?usp=sharing)
 
