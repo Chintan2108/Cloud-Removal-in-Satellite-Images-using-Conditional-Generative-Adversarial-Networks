@@ -30,6 +30,8 @@ Later on, more data augmentation was implemented by performing skew operations o
 
 [Training Data Drive Link](https://drive.google.com/file/d/1dJqHhZUHgYrf0_42CBswJklQgxsApAXQ/view?usp=sharing)
 
+[Skew Augmented Training Data Drive Link](https://drive.google.com/file/d/1jipx2uAULbB32oSfW09k6rJmMdkoh_Wt/view?usp=sharing)
+
 ### Model and Training 
 
 pix-2-pix GAN model is used for learning the mapping of the cloudy image to it's cloud-free counterpart. It follows a supervised conditional vector based training approach. The model is trained on the cloudy and cloud-free image pairs which are dated two days apart. pix-2-pix model follows a pixel to pixel image restoration approach and generates a new pixel cloud-free for every cloudy pixel.
