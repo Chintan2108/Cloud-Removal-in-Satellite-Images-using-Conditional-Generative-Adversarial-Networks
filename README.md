@@ -77,6 +77,26 @@ Various Parameters for evaluation per 100 epochs are as follows in terms of PC,P
 
 The spikes in the generator loss graph can be due to a few reasons such as the image dataset might have a few big contrasts due to augmenting the dataset and the Generator might have been stuck in a mode collapse(local minima) which when resolved resulted in very high spikes in the loss as the descriminator was quite good trained till then.
 
+#### Comparison of Result on the two datasets
+
+Correlation
+
+![Correlation](https://github.com/Chintan2108/Cloud-Removal-in-Satellite-Images-using-Conditional-Generative-Adversarial-Networks/blob/master/network%20architectures/correlation.png)
+![Correlation on skewed](https://github.com/Chintan2108/Cloud-Removal-in-Satellite-Images-using-Conditional-Generative-Adversarial-Networks/blob/master/network%20architectures/correlation_new.png)
+
+
+SSIM
+
+![SSIM](https://github.com/Chintan2108/Cloud-Removal-in-Satellite-Images-using-Conditional-Generative-Adversarial-Networks/blob/master/network%20architectures/ssim.png)
+![SSIM on skewed](https://github.com/Chintan2108/Cloud-Removal-in-Satellite-Images-using-Conditional-Generative-Adversarial-Networks/blob/master/network%20architectures/ssim_new.png)
+
+PSNR
+
+![PSNR](https://github.com/Chintan2108/Cloud-Removal-in-Satellite-Images-using-Conditional-Generative-Adversarial-Networks/blob/master/network%20architectures/PSNR.png)
+![PSNR on skewed](https://github.com/Chintan2108/Cloud-Removal-in-Satellite-Images-using-Conditional-Generative-Adversarial-Networks/blob/master/network%20architectures/PSNR_new.png)
+
+
+
 ## Contribution
 
 [![Gitter](https://badges.gitter.im/Cloud-Removal-in-Satellite-Images-using-GANs/community.svg)](https://gitter.im/Cloud-Removal-in-Satellite-Images-using-GANs/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
