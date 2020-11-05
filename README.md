@@ -73,26 +73,27 @@ Various Parameters for evaluation per 100 epochs are as follows in terms of PC,P
 | 1600      |0.5292296154   |0.1225696892 |0.03089674103  |0.07625537081  |0.08322336163   |0.06492719505  |28.1318743     |24.72636908  |0.7972798953    |0.7104326953|
 | 1700      |0.632629049    |0.1635108239 |0.08676428243  |0.1230198421   |0.2582400218    |0.1075018241   |31.25227794    |26.33953686  |0.8842468747    |0.7974064016|
 
+
 #### Spikes in Skew Dataset Losses
 
 The spikes in the generator loss graph can be due to a few reasons such as the image dataset might have a few big contrasts due to augmenting the dataset and the Generator might have been stuck in a mode collapse(local minima) which when resolved resulted in very high spikes in the loss as the descriminator was quite good trained till then.
 
-#### Comparison of Result on the two datasets
+### Comparison of Result on the two datasets
 
 Correlation
 
-![Correlation](.//network%20architectures/correlation.png) ![Correlation on skewed](.//network%20architectures/correlation_new.png)
 
+| ![Correlation](.//network%20architectures/correlation.png) | ![Correlation on skewed](.//network%20architectures/correlation_new.png) |
+|:---:|:---:|
+| PC on original data| PC on skewed data |
 
 SSIM
 
-![SSIM](.//network%20architectures/ssim.png) ![SSIM on skewed](.//network%20architectures/ssim_new.png)
+![SSIM](.//network%20architectures/ssim.png) 
 
 PSNR
 
-![PSNR](.//network%20architectures/PSNR.png) ![PSNR on skewed](.//network%20architectures/PSNR_new.png)
-
-
+![PSNR](.//network%20architectures/PSNR.png) 
 
 ## Contribution
 
