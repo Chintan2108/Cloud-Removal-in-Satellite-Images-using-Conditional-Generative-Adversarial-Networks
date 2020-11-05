@@ -81,19 +81,16 @@ The spikes in the generator loss graph can be due to a few reasons such as the i
 
 Correlation
 
-![Correlation](.//network%20architectures/correlation.png)
-![Correlation on skewed](.//network%20architectures/correlation_new.png)
+![Correlation](.//network%20architectures/correlation.png) ![Correlation on skewed](.//network%20architectures/correlation_new.png)
 
 
 SSIM
 
-![SSIM](.//network%20architectures/ssim.png)
-![SSIM on skewed](.//network%20architectures/ssim_new.png)
+![SSIM](.//network%20architectures/ssim.png) ![SSIM on skewed](.//network%20architectures/ssim_new.png)
 
 PSNR
 
-![PSNR](.//network%20architectures/PSNR.png)
-![PSNR on skewed](.//network%20architectures/PSNR_new.png)
+![PSNR](.//network%20architectures/PSNR.png) ![PSNR on skewed](.//network%20architectures/PSNR_new.png)
 
 
 
