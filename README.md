@@ -108,3 +108,13 @@ Please feel free to raise issues and fix any existing ones. Further details can 
 - [ ] Provide in-code review comments on GitHub to highlight specific LOC if deemed necessary.
 - [ ] Please provide snapshots if deemed necessary.
 - [ ] Update readme if required.
+
+## Credits
+
+* This study available as a book chapter. [DOI](http://dx.doi.org/10.1007/978-981-16-2712-5_39)
+
+Please cite this work as:
+
+```
+Maniyar, C., & Kumar, A. (2021). Generative Adversarial Network for Cloud Removal from Optical Temporal Satellite Imagery. In Soft Computing for Problem Solving (pp. 481-491). Springer, Singapore.
+```
